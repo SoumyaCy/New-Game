@@ -30,7 +30,7 @@ $(".btn").click(function(){//button clicked by user
 
 
 function playSound(nam){
-  var audio = new Audio("sounds/"+nam+".mp3");
+  var audio = new Audio("https://SoumyaCy.github.io/New-Game/sounds/"+nam+".mp3");
     audio.play();
 }
 
@@ -73,7 +73,7 @@ res();
 
 
 function wrong(){
-  var audio1=new Audio("sounds/wrong.mp3");
+  var audio1=new Audio("https://SoumyaCy.github.io/New-Game/sounds/wrong.mp3");
   audio1.play();
   $("body").addClass("game-over");
   setTimeout(function(){
